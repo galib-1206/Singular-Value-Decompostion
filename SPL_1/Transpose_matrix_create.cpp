@@ -1,5 +1,5 @@
 #include "header.h"
-void transpose_func(double W[][100], double transpose_matrix[][100], int row, int col)
+void transpose_func(double W[][N], double transpose_matrix[][N], int row, int col)
 {
     for (int i = 0; i < row; i++)
     {

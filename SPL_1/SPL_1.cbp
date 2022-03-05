@@ -34,7 +34,6 @@
 		</Compiler>
 		<Unit filename="Cost_func.cpp" />
 		<Unit filename="Determinant_func.cpp" />
-		<Unit filename="Inverse_matrix_create.cpp" />
 		<Unit filename="Matrix_multiplier.cpp" />
 		<Unit filename="Normalizer_func.cpp" />
 		<Unit filename="Rand_func.cpp" />
@@ -43,6 +42,7 @@
 		<Unit filename="TwoMatrix_print.cpp" />
 		<Unit filename="constant.h" />
 		<Unit filename="header.h" />
+		<Unit filename="input_matrix.txt" />
 		<Unit filename="main.cpp" />
 		<Unit filename="matrix_printer.cpp" />
 		<Extensions>

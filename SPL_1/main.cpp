@@ -5,18 +5,19 @@ using namespace std;
 
 int main()
 {
-   double original_matrix [100] [100]={};
+   double original_matrix [N] [N]={};
    int row,col,i,j,k;
    printf("Enter number of rows and cols:");
    cin>>row>>col;
-printf("Input Matrix:\n ");
+   printf("Input Matrix:\n ");
      for(i=0;i<row;i++){
         for(j=0;j<col;j++)
             cin>>original_matrix[i][j];
     }
-    cout<<Determinant_func(original_matrix, row, col)<<endl<<endl;
+   // cout<<Determinant_func(original_matrix, row, col)<<endl<<endl;
 
-    cout<<"After normalization"<<endl;
+    cout<<"\nAfter normalization:"<<endl;
+
      double sd=SD(original_matrix,row,col);
 
        for(int i=0;i<row;i++){
@@ -27,17 +28,18 @@ printf("Input Matrix:\n ");
      for(i=0;i<row;i++){
         for(j=0;j<col;j++)
             cout<<" "<<original_matrix[i][j];
-            cout<<endl;
-    }
+            cout<<"\n"<<endl;
 
+    }
 
      //Generating two matrices using Rand number..
 
     //devided into two matrices
-    printf(" Enter dimension: ");
-    cin>>k; // k, col of part1 & row of part2
+    printf("Deviding into two matrices:");
+    printf("\nEnter dimension: ");
+    cin >> k; // k, col of part1 & row of part2
 
-    double matrix_p1[100][100]={}, matrix_p2[100][100]={};
+    double matrix_p1[N][N]={}, matrix_p2[N][N]={};
 
     for(i=0;i<row;i++){
         for(j=0;j<k;j++){
@@ -51,7 +53,7 @@ printf("Input Matrix:\n ");
         }
     }
     print(matrix_p1, matrix_p2, row, k, col);
-    double res[100][100]={0};
+    double res[N][N]={0};
 
     double cost = eucledian_cost(res,original_matrix, row, col);
 

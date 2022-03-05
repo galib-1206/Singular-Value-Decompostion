@@ -1,6 +1,6 @@
 #include "header.h"
-//printing
-void print(double matrix_p1[][100], double matrix_p2[][100], int m, int k, int n)
+//printing two devided matrix..
+void print(double matrix_p1[][N], double matrix_p2[][N], int m, int k, int n)
 {  printf("Matrix_part1:\n");
        for (int i=0;i<m;i++)
     {
@@ -8,7 +8,7 @@ void print(double matrix_p1[][100], double matrix_p2[][100], int m, int k, int n
         {
             cout<<matrix_p1[i][j]<< " ";
         }
-        cout<<endl;
+        cout<<"\n"<<endl;
     }
     cout<<endl;
      printf("Matrix_part2:\n");
@@ -18,7 +18,7 @@ void print(double matrix_p1[][100], double matrix_p2[][100], int m, int k, int n
         {
             cout<<matrix_p2[i][j]<< " ";
         }
-        cout<<endl;
+       cout<<"\n"<<endl;
     }
     cout<<endl;
 }

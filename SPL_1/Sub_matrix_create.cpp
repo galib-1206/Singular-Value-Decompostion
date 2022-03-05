@@ -1,5 +1,5 @@
 #include "header.h"
-void Sub_matrix_create(double original_matrix[][100],double sub_matrix[][100], int row, int col,int r_row,int r_col) //remove_row ,remove_col as i
+void Sub_matrix_create(double original_matrix[][N],double sub_matrix[][N], int row, int col,int r_row,int r_col) //remove_row ,remove_col as i
 {
     int k=0,l=0;
     for(int i=0;i<col;i++)

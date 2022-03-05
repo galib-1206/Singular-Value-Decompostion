@@ -1,5 +1,5 @@
 #include "header.h"
-void print_matrix(double res[][100], int m, int n)
+void print_matrix(double res[][N], int m, int n)
 {
     for (int i = 0; i < m; i++)
     {

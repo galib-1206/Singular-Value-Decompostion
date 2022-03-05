@@ -1,16 +1,17 @@
 #include "header.h"
 //Calculating SD of main matrix
-double SD(double original_matrix[][100], int r, int c)
+double SD(double original_matrix[][N], int r, int c)
 {
-    double add=0, avg, sd=0;
+    double sum=0,sd=0;
+    double avg;
 
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
-            add+=(original_matrix[i][j]);
+            sum+=(original_matrix[i][j]);
         }
     }
 
-    avg=add/(r*c);
+    avg=sum/(r*c);
 
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){

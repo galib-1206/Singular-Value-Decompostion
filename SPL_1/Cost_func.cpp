@@ -1,5 +1,5 @@
 #include "header.h"
-double eucledian_cost(double input[][100], double WH[][100], int row, int col)
+double eucledian_cost(double input[][N], double WH[][N], int row, int col)
 {
     double cost = 0.0;
     double sum = 0.0;

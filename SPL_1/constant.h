@@ -4,3 +4,4 @@ using namespace std;
 #define sigma 4.0
 #define mu 10.0
 #define initial (0.398922804/sigma)
+#define N 100

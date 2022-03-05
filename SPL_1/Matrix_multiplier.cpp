@@ -1,6 +1,6 @@
 #include "header.h"
 
-void Multiply(double matrix_p1[][100], double matrix_p2[][100], double res[][100], int r1, int c, int c2)
+void Multiply(double matrix_p1[][N], double matrix_p2[][N], double res[][N], int r1, int c, int c2)
 {
     int c1=c, r2=c;
 
