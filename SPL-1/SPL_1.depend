@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1646469359 source:c:\users\acer\documents\github\spl_1\cost_func.cpp
+	"header.h"
+
+1646469462 c:\users\acer\documents\github\spl_1\header.h
+	<bits/stdc++.h>
+	"constant.h"
+
+1646469898 c:\users\acer\documents\github\spl_1\constant.h
+	<bits/stdc++.h>
+
+1646469635 source:c:\users\acer\documents\github\spl_1\determinant_func.cpp
+	"header.h"
+
+1646522437 source:c:\users\acer\documents\github\spl_1\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"header.h"
+
+1646469498 source:c:\users\acer\documents\github\spl_1\matrix_multiplier.cpp
+	"header.h"
+
+1646469718 source:c:\users\acer\documents\github\spl_1\matrix_printer.cpp
+	"header.h"
+
+1646501917 source:c:\users\acer\documents\github\spl_1\normalizer_func.cpp
+	"header.h"
+
+1646467870 source:c:\users\acer\documents\github\spl_1\rand_func.cpp
+	"header.h"
+
+1646522396 source:c:\users\acer\documents\github\spl_1\sub_matrix_create.cpp
+	"header.h"
+
+1646469578 source:c:\users\acer\documents\github\spl_1\transpose_matrix_create.cpp
+	"header.h"
+
+1646469529 source:c:\users\acer\documents\github\spl_1\twomatrix_print.cpp
+	"header.h"
+
+1646469359 source:c:\users\acer\documents\github\spl-1\cost_func.cpp
+	"header.h"
+
+1653875580 c:\users\acer\documents\github\spl-1\header.h
+	<bits/stdc++.h>
+	"constant.h"
+
+1653729957 c:\users\acer\documents\github\spl-1\constant.h
+	<bits/stdc++.h>
+
+1653740649 source:c:\users\acer\documents\github\spl-1\determinant_func.cpp
+	"header.h"
+
+1646469498 source:c:\users\acer\documents\github\spl-1\matrix_multiplier.cpp
+	"header.h"
+
+1646469718 source:c:\users\acer\documents\github\spl-1\matrix_printer.cpp
+	"header.h"
+
+1646501917 source:c:\users\acer\documents\github\spl-1\normalizer_func.cpp
+	"header.h"
+
+1646467870 source:c:\users\acer\documents\github\spl-1\rand_func.cpp
+	"header.h"
+
+1646522512 source:c:\users\acer\documents\github\spl-1\sub_matrix_create.cpp
+	"header.h"
+
+1653820119 source:c:\users\acer\documents\github\spl-1\transpose_matrix_create.cpp
+	"header.h"
+
+1646469529 source:c:\users\acer\documents\github\spl-1\twomatrix_print.cpp
+	"header.h"
+
+1653731545 source:c:\users\acer\documents\github\spl-1\matrix_rank.cpp
+	"header.h"
+
+1653855609 source:c:\users\acer\documents\github\spl-1\bairstowmethod.cpp
+	"header.h"
+
+1653857389 source:c:\users\acer\documents\github\spl-1\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"header.h"
+
+1653771465 source:c:\users\acer\documents\github\spl-1\svd_calculate.cpp
+	"header.h"
+
+1653876115 source:c:\users\acer\documents\github\spl-1\svd_calc.cpp
+	"header.h"
+

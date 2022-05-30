@@ -32,8 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="BairstowMethod.cpp" />
 		<Unit filename="Cost_func.cpp" />
 		<Unit filename="Determinant_func.cpp" />
+		<Unit filename="Matrix_Rank.cpp" />
 		<Unit filename="Matrix_multiplier.cpp" />
 		<Unit filename="Normalizer_func.cpp" />
 		<Unit filename="Rand_func.cpp" />
@@ -45,6 +47,7 @@
 		<Unit filename="input_matrix.txt" />
 		<Unit filename="main.cpp" />
 		<Unit filename="matrix_printer.cpp" />
+		<Unit filename="svd_calc.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

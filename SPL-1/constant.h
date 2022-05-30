@@ -5,3 +5,5 @@ using namespace std;
 #define mu 10.0
 #define initial (0.398922804/sigma)
 #define N 100
+#define SIZE 100000
+#define phi 1e-12

@@ -10,7 +10,6 @@ double SD(double original_matrix[][N], int r, int c)
             sum+=(original_matrix[i][j]);
         }
     }
-
     avg=sum/(r*c);
 
     for(int i=0;i<r;i++){

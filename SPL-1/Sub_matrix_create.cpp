@@ -15,6 +15,6 @@ void Sub_matrix_create(double original_matrix[][N],double sub_matrix[][N], int r
         if(i!=r_row) k++;
         l=0;
     }
-    cout<<row<<col<<endl;
+   // cout<<row<<col<<endl;
     print_matrix(sub_matrix, row, col);
 }

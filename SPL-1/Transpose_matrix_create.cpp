@@ -8,5 +8,5 @@ void transpose_func(double W[][N], double transpose_matrix[][N], int row, int co
             transpose_matrix[j][i] = W[i][j];
         }
     }
-    print_matrix(transpose_matrix, col, row);
+    //print_matrix(transpose_matrix, col, row);
 }

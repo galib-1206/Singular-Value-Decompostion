@@ -19,3 +19,11 @@ double SD(double original_matrix[][N], int r, int c);
 double eucledian_cost(double input[][N], double WH[][N], int row, int col);
 
 void print_matrix(double res[][N], int m, int n);
+
+int rankOfMatrix(double mat[N][N]);
+
+void starting_method(double pass[], int total);
+
+double SVD_func();
+
+void transpose_func(double W[][N], double transpose_matrix[][N], int row, int col);
