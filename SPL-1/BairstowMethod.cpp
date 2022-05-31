@@ -3,7 +3,7 @@
 int n;
 double *a,*b,*c, r, s, old_r, old_s,dr,ds,root_p, root_q;
 bool last = false;
-       //for last rest equation
+//for last rest equation
 
 void initialize_array()
 {
@@ -23,7 +23,7 @@ void delete_array()
 
 double absolute(double x)
 {
-    //return absolute value
+//return absolute value
     if(x<0){
         x *= -1;
     }
@@ -35,7 +35,7 @@ double absolute(double x)
 
 double remove_error(double value)
 {
-    //floating point never goes to zero. for a particular error we need to avoid these error
+//floating point never goes to zero. for a particular error we need to avoid these error
     int integer = value;
     if(absolute(integer - value) <= phi){
 
@@ -222,10 +222,10 @@ void find_root()
 }
 
 
-void starting_method(double pass[], int total)
+void Get_coefficient(double pass[], int total)
 {
 
-    initialize_array();         //initialize array as dynamic for controll million of data
+    initialize_array();         //initialize array as dynamic.
     //copy array to global array
     for(int i= total;i>=0;i--){
         a[i] = pass[i];
@@ -255,9 +255,3 @@ void starting_method(double pass[], int total)
 
 
 
-
-//int main()
-//{
-//
-//
-//}

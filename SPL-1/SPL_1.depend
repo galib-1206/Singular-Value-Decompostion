@@ -41,7 +41,7 @@
 1646469359 source:c:\users\acer\documents\github\spl-1\cost_func.cpp
 	"header.h"
 
-1653875580 c:\users\acer\documents\github\spl-1\header.h
+1653887578 c:\users\acer\documents\github\spl-1\header.h
 	<bits/stdc++.h>
 	"constant.h"
 
@@ -75,10 +75,10 @@
 1653731545 source:c:\users\acer\documents\github\spl-1\matrix_rank.cpp
 	"header.h"
 
-1653855609 source:c:\users\acer\documents\github\spl-1\bairstowmethod.cpp
+1653887059 source:c:\users\acer\documents\github\spl-1\bairstowmethod.cpp
 	"header.h"
 
-1653857389 source:c:\users\acer\documents\github\spl-1\main.cpp
+1653886919 source:c:\users\acer\documents\github\spl-1\main.cpp
 	<iostream>
 	<bits/stdc++.h>
 	"header.h"
@@ -86,6 +86,6 @@
 1653771465 source:c:\users\acer\documents\github\spl-1\svd_calculate.cpp
 	"header.h"
 
-1653876115 source:c:\users\acer\documents\github\spl-1\svd_calc.cpp
+1653894901 source:c:\users\acer\documents\github\spl-1\svd_calc.cpp
 	"header.h"
 

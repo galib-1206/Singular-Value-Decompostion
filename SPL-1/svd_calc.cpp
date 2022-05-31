@@ -177,7 +177,7 @@ double SVD_func()
 
         for(int j=0; j<2; j++)
         {
-            cout<<SVD[i][j]<<"\t\t";
+            cout<<SVD[i][j]<<"\t";
         }
         cout << endl;
 

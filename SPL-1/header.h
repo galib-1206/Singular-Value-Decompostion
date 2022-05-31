@@ -22,7 +22,7 @@ void print_matrix(double res[][N], int m, int n);
 
 int rankOfMatrix(double mat[N][N]);
 
-void starting_method(double pass[], int total);
+void Get_coefficient(double pass[], int total);
 
 double SVD_func();
 

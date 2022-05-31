@@ -88,7 +88,7 @@ int main()
         cin>>arr[n-i];
     }
 
-    starting_method(arr,n);
+    Get_coefficient(arr,n);
 
 
 
